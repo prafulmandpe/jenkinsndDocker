@@ -8,6 +8,7 @@ import io.cucumber.testng.CucumberOptions;
 		glue = {"blogSpotAutomation"},
 		plugin = {"pretty", "html:target/cucumber_report/blogSpotAutomation.html"},
 		publish = true
+		
 		)
 public class RunnerClass extends AbstractTestNGCucumberTests{
 
